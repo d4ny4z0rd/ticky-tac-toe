@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Fjalla one;
+	color: white;
+	background-color: #020817;
+}
+
+#heading {
+	font-size: 70px;
+}
+
+#container {
+	text-align: center;
+	justify-content: center;
+}
+
+#board {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 525px;
+	margin: auto;
+	grid-gap: 13px;
+}
+
+.cell {
+	background-color: beige;
+	border-radius: 20px;
+	height: 175px;
+	width: 175px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 100px;
+	font-size: 100px;
+}
+
+#status {
+	font-size: 35px;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+#restart {
+	background-color: #020817;
+	height: 50px;
+	width: 8%;
+	margin-left: 46%;
+	font-size: 30px;
+	padding-top: 0.6%;
+	border-radius: 20px;
+}
+
+#restart:hover {
+	background-color: white;
+	color: #020817;
+	cursor: pointer;
+}
