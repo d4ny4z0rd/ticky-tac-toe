@@ -27,6 +27,7 @@ function initalizeGame() {
 function cellClicked() {
 	if (!running) return;
 	let cellIndex = this.getAttribute("cellIndex");
+	if (options[cellIndex] !== "") return;
 	this.innerHTML =
 		currentPlayer == "X"
 			? `<img alt="cross" src="cross-mark-svgrepo-com.svg" style="height:120px; width : 120px; margin-top : 15%"/>`
