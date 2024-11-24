@@ -53,7 +53,7 @@ function checkWinner() {
 		statusText.textContent = `${currentPlayer} won`;
 		running = false;
 	} else if (!options.includes("")) {
-		statusText.textContent = `Draw`;
+		statusText.textContent = `Khichdi pak gayi`;
 		running = false;
 	} else changePlayer();
 }
